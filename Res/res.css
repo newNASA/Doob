@@ -1,0 +1,318 @@
+@media screen and (max-width: 2560px) and (min-width: 1920px) {
+  * {
+    border: 1px solid red;
+  }
+  header nav img {
+    width: 200px;
+    height: 100px;
+  }
+  header nav ul {
+    margin-left: 500px;
+    transform: translateY(-30px);
+  }
+  header nav ul a {
+    font-size: xx-large;
+  }
+  header nav ul a:hover {
+    font-size: 35px;
+  }
+  header nav p {
+    margin-left: 300px;
+    transform: translateY(-30px);
+    font-size: xx-large;
+  }
+  header nav .con {
+    transform: translateY(-30px);
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 20px 30px;
+  }
+  header .head {
+    padding-top: 200px;
+  }
+  header .head .head-left h1 {
+    font-size: 120px;
+    width: 1000px;
+    margin-top: 150px;
+  }
+  header .head .head-left p {
+    width: 1000px;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 600;
+    opacity: 0.6;
+  }
+  header .head .head-left a {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 30px;
+  }
+  header .head .head-left .head-left-text {
+    font-size: 29px;
+  }
+  header .head .head-right {
+    background-size: 950px 1000px;
+  }
+  header .head-container {
+    margin-top: 200px;
+  }
+  header .head-container .container-top {
+    padding: 30px;
+  }
+  header .head-container .container-top h1 {
+    font-size: 40px;
+  }
+  header .head-container .container-center .con-center-left,
+  header .head-container .container-center .con-center-right {
+    width: 700px;
+    padding: 50px;
+  }
+  header .head-container .container-center .con-center-left h2,
+  header .head-container .container-center .con-center-right h2 {
+    font-size: 32px;
+  }
+  header .head-container .container-center .con-center-left p,
+  header .head-container .container-center .con-center-right p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  header .head-container .container-bottom a {
+    padding: 20px 30px;
+    font-size: 28px;
+  }
+  .about {
+    margin-top: 50px;
+  }
+  .about .left {
+    width: 50%;
+  }
+  .about .left img {
+    width: 1150px;
+    height: 700px;
+  }
+  .about .right {
+    width: 50%;
+  }
+  .about .right h1 {
+    width: 1000px;
+    font-size: 100px;
+  }
+  .about .right p {
+    margin-top: 30px;
+    width: 1100px;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .portfolio .port-top {
+    padding: 50px 75px;
+  }
+  .portfolio .port-top h1 {
+    font-size: 40px;
+  }
+  .portfolio .port-center .port-con {
+    width: 500px;
+    height: 450px;
+    margin: 10px;
+  }
+  .portfolio .port-bottom a {
+    padding: 20px 30px;
+    font-size: 28px;
+  }
+  .blog {
+    margin-top: 50px;
+  }
+  .blog .blog-top {
+    padding: 50px 75px;
+  }
+  .blog .blog-top h1 {
+    font-size: 40px;
+  }
+  .blog .blog-bottom .blog-con {
+    width: 500px;
+    height: 460px;
+    margin: 10px;
+  }
+  .blog .blog-bottom .one .title,
+  .blog .blog-bottom .two .title {
+    font-size: 40px;
+  }
+  .blog .blog-bottom .one .date,
+  .blog .blog-bottom .two .date {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .blog .blog-bottom .one .text,
+  .blog .blog-bottom .two .text {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+  .contact .contact-top {
+    padding: 50px 75px;
+  }
+  .contact .contact-top h1 {
+    font-size: 40px;
+  }
+  .contact .contact-center .contact-center-top input {
+    width: 900px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .contact .contact-center .contact-center-top input::-moz-placeholder {
+    font-size: 30px;
+  }
+  .contact .contact-center .contact-center-top input::placeholder {
+    font-size: 30px;
+  }
+  .contact .contact-center .contact-center-bottom textarea {
+    width: 1800px;
+    font-size: 30px;
+  }
+  .contact .contact-center .contact-center-bottom textarea::-moz-placeholder {
+    font-size: 30px;
+  }
+  .contact .contact-center .contact-center-bottom textarea::placeholder {
+    font-size: 30px;
+  }
+  .contact .contact-bottom a {
+    padding: 20px 30px;
+    font-size: 28px;
+  }
+  footer {
+    padding: 75px, 100px;
+  }
+  footer .title {
+    font-size: 40px;
+  }
+  footer h1 {
+    font-size: 70px;
+  }
+  footer ul a {
+    font-size: xx-large;
+  }
+  footer ul a:hover {
+    font-size: 35px;
+  }
+  footer .company {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  header nav ul {
+    margin-left: 300px;
+  }
+  header .head {
+    height: 100vh;
+  }
+  header .head .head-left {
+    padding-top: 250px;
+  }
+  header .head .head-left h1 {
+    font-size: 70px;
+    width: 600px;
+  }
+  header .head .head-left p {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  header .head .head-left a {
+    margin-top: 30px;
+  }
+  .contact .contact-center {
+    padding-left: 120px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  header nav {
+    padding-top: 20px;
+    margin: 0;
+    position: fixed;
+    margin-top: 50px;
+  }
+  header nav img {
+    width: 75px;
+    height: 40px;
+  }
+  header nav ul a {
+    margin-right: 15px;
+  }
+  header nav p {
+    margin-left: 100px;
+  }
+  header .head .head-left p {
+    width: 450px;
+  }
+  header .head .head-right {
+    background-size: contain;
+  }
+  .about .left img {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  header nav {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 25px;
+    position: fixed;
+  }
+  header nav ul {
+    margin-left: 70px;
+  }
+  header nav .con {
+    display: none;
+  }
+  header .head .head-left {
+    padding: 200px 25px;
+  }
+  header .head .head-left h1 {
+    font-size: 40px;
+  }
+  header .head .head-left p {
+    width: 350px;
+  }
+  header .head .head-left a {
+    margin-top: 20px;
+  }
+  header .head .head-right {
+    z-index: -1;
+  }
+  header .head-container .container-top h1 {
+    font-size: 30px;
+  }
+  header .head-container .container-center {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .head-container .container-center .con-center-left,
+  header .head-container .container-center .con-center-right {
+    width: 550px;
+    margin-top: 15px;
+  }
+  .about .about-some {
+    padding: 25px;
+  }
+  .about .left {
+    width: 50%;
+  }
+  .about .left img {
+    width: 300px;
+  }
+  .about .right {
+    width: 50%;
+  }
+  .about .right h1 {
+    margin: 0;
+  }
+  .contact .contact-center .contact-center-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .contact-center .contact-center-top input {
+    margin-top: 10px;
+  }
+  .contact .contact-center .contact-center-bottom textarea {
+    width: 650px;
+  }
+}/*# sourceMappingURL=res.css.map */
