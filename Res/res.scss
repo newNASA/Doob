@@ -1,306 +1,10 @@
 //    responsive max-width:2560; min-width:1920;
 
-@media screen and (max-width: 2560px) and (min-width: 1920px) {
-
-      // header styling 2560
-      * {
-            border: 1px solid red;
-            // background-color: black;
-      }
-
-      header {
-
-            // navber styling 2560
-
-            nav {
-
-                  img {
-                        width: 200px;
-                        height: 100px;
-                  }
-
-                  ul {
-                        margin-left: 500px;
-                        transform: translateY(-30px);
-
-                        a {
-                              font-size: xx-large;
-
-                              &:hover {
-                                    font-size: 35px;
-                              }
-                        }
-                  }
-
-                  p {
-                        margin-left: 300px;
-                        transform: translateY(-30px);
-                        font-size: xx-large;
-                  }
-
-                  .con {
-                        transform: translateY(-30px);
-                        font-size: 30px;
-                        border-radius: 8px;
-                        padding: 20px 30px;
-                  }
-            }
-
-            // head styling 2560
-
-            .head {
-                  padding-top: 200px;
-                  // header left styling 2560
-
-                  .head-left {
-                        h1 {
-                              font-size: 120px;
-                              width: 1000px;
-                              margin-top: 150px;
-                        }
-
-                        p {
-                              width: 1000px;
-                              font-size: 25px;
-                              margin-top: 50px;
-                              font-weight: 600;
-                              opacity: 0.6;
-                        }
-
-                        a {
-                              margin-top: 50px;
-                              font-size: 28px;
-                              font-weight: 600;
-                              padding: 20px 30px;
-                        }
-
-                        .head-left-text {
-                              font-size: 29px;
-                        }
-                  }
-
-                  // header right styling 2560
-
-                  .head-right {
-                        background-size: 950px 1000px;
-                  }
-            }
-
-            // header container styling 2560
-
-            .head-container {
-                  margin-top: 200px;
-
-                  .container-top {
-                        padding: 30px;
-
-                        h1 {
-                              font-size: 40px;
-                        }
-                  }
-
-                  .container-center {
-
-                        .con-center-left,
-                        .con-center-right {
-                              width: 700px;
-                              padding: 50px;
-
-                              h2 {
-                                    font-size: 32px;
-                              }
-
-                              p {
-                                    font-size: 20px;
-                                    margin-top: 20px;
-                              }
-                        }
-                  }
-
-                  .container-bottom {
-                        a {
-                              padding: 20px 30px;
-                              font-size: 28px;
-                        }
-                  }
-            }
-      }
-
-      // about styling 2560
-
-      .about {
-            margin-top: 50px;
-
-            .left {
-                  width: 50%;
-
-                  img {
-                        width: 1150px;
-                        height: 700px;
-                  }
-            }
-
-            .right {
-                  width: 50%;
-
-                  h1 {
-                        width: 1000px;
-                        font-size: 100px;
-                  }
-
-                  p {
-                        margin-top: 30px;
-                        width: 1100px;
-                        font-size: 30px;
-                        font-weight: 100;
-                  }
-            }
-      }
-
-      // portfolio styling 2560
-
-      .portfolio {
-            .port-top {
-                  padding: 50px 75px;
-
-                  h1 {
-                        font-size: 40px;
-                  }
-            }
-
-            .port-center {
-                  .port-con {
-                        width: 500px;
-                        height: 450px;
-                        margin: 10px;
-                  }
-            }
-
-            .port-bottom {
-                  a {
-                        padding: 20px 30px;
-                        font-size: 28px;
-                  }
-            }
-      }
-
-      // blog styling 2560
-
-      .blog {
-            margin-top: 50px;
-
-            .blog-top {
-                  padding: 50px 75px;
-
-                  h1 {
-                        font-size: 40px;
-                  }
-            }
-
-            .blog-bottom {
-                  .blog-con {
-                        width: 500px;
-                        height: 460px;
-                        margin: 10px;
-                  }
-
-                  .one,
-                  .two {
-                        .title {
-                              font-size: 40px;
-                        }
-
-                        .date {
-                              font-size: 20px;
-                              margin-top: 20px;
-                        }
-
-                        .text {
-                              font-size: 30px;
-                              margin-top: 25px;
-                        }
-                  }
-            }
-      }
-
-      // contact styling 2560
-
-      .contact {
-            .contact-top {
-                  padding: 50px 75px;
-
-                  h1 {
-                        font-size: 40px;
-                  }
-            }
-
-            .contact-center {
-                  .contact-center-top{
-                        input {
-                              width: 900px;
-                              height: 80px;
-                              font-size: 30px;
-      
-                              &::placeholder {
-                                    font-size: 30px;
-                              }
-                        }
-                  }
-
-                  .contact-center-bottom{
-                        textarea {
-                              width: 1800px;
-                              font-size: 30px;
-                              &::placeholder {
-                                    font-size: 30px;
-                              }
-                        }
-                  }
-            }
-
-            .contact-bottom {
-                  a {
-                        padding: 20px 30px;
-                        font-size: 28px;
-                  }
-            }
-      }
-
-      // footer styling 2560
-
-      footer {
-            padding: 75px, 100px;
-
-            .title {
-                  font-size: 40px;
-            }
-
-            h1 {
-                  font-size: 70px;
-            }
-
-            ul {
-                  a {
-                        font-size: xx-large;
-
-                        &:hover {
-                              font-size: 35px;
-                        }
-                  }
-            }
-
-            .company {
-                  font-size: 20px;
-            }
-      }
-
-} 
-
 // _________________________________________________________________________________________________________________
 
- //    responsive max-width:1920; min-width:1280;
+ //    responsive max-width:1920; min-width:1561;
 
-@media screen and (max-width: 1920px) and (min-width: 1440px) {
+@media screen and (max-width: 1920px) and (min-width: 1536px) {
 
       //    header styling 1920
 
@@ -330,10 +34,6 @@
                         p {
                               font-size: 13px;
                               margin-left: 5px;
-                        }
-
-                        a {
-                              margin-top: 30px;
                         }
                   }
 
@@ -526,6 +226,27 @@
                         textarea{
                               width: 650px;
                         }
+                  }
+            }
+      }
+}
+
+//  Responsive styles  max-width=425px min-width=375px
+
+@media screen and (max-width:426px) and (min-width:375px) {
+      // header styles 425
+
+      body{
+            background-color: black;
+      }
+
+      header{
+            nav{
+                  ul{
+                        display: none;
+                  }
+                  p{
+                        display: none;
                   }
             }
       }
