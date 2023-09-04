@@ -236,17 +236,140 @@
 @media screen and (max-width:426px) and (min-width:375px) {
       // header styles 425
 
-      body{
-            background-color: black;
-      }
-
       header{
             nav{
+                  margin-top: 0px;
+                  display: flex;
+                  // justify-content: start;
+                  padding: 10px 20px;
+                  .logo{
+                        width: 60px;
+                        height:40px;
+                  }
                   ul{
                         display: none;
                   }
                   p{
+                        display: inline-block;
+                        // margin: 0;
+                  }
+                  .menu{
+                        width: 60px;
+                        height: 40px;
+                        display: inline-block;
+                  }
+            }
+            .langs{
+                  transform: translate(282px, 64px);
+            }
+            .menus{
+                  transform: translate(280px, 64px);
+            }
+            .head{
+                  .head-left{
+                        width: 100%;
+                        padding: 100px 50px 100px 50px;
+                        h1{
+                              width: 350px;   
+                              text-align: center;  
+                        }
+                        p{
+                              text-align: center;
+                        }
+                  }
+                  .head-right{
+                        // position: relative;
                         display: none;
+                  }
+            }
+
+            // head-container styles 425
+
+            .head-container{
+                  .container-center{
+                        .con-center-left,
+                        .con-center-right{
+                              width: 350px;
+                              h2{
+                                    font-size: 18px;
+                              }
+                        }
+                  }
+            }
+      }
+
+      // about styles 425
+
+      .about{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .about-some{
+                  padding: 0;
+            }
+            .left, .right{
+                  width: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+            }
+            .right{
+                  margin-top: 15px;
+                  flex-direction: column;
+                  h1,p{
+                        text-align: center;
+                  }
+            }
+      }
+
+      // portfolio styles 425
+
+      .portfolio{
+            .port-center{
+                  height: 1112px;
+                  display: flex;
+                  flex-direction: column;
+                  overflow: hidden;
+                  padding-left: 37px;
+                  .port-container{
+                        display: block;
+                        .port-con{
+                              display: block;   
+                              width: 350px;
+                              height: 350px;
+                              margin-bottom: 10px;
+                              margin-left: 0;
+                        }
+                  }
+            }
+      }
+
+      // blog styles     425
+
+      .blog{
+            .blog-bottom{
+                  flex-direction: column;
+                  align-items: center;
+                  .blog-con{
+                        margin-bottom: 20px;
+                  }
+            }
+      }
+
+      // contact styles 425
+
+      .contact{
+            .contact-center{
+                  .contact-center-top{
+                        input{
+                              width: 380px;
+                              margin-left: 5px;
+                        }
+                  }
+                  .contact-center-bottom{
+                        textarea{
+                              width: 380px;
+                        }
                   }
             }
       }

@@ -115,13 +115,104 @@
   }
 }
 @media screen and (max-width: 426px) and (min-width: 375px) {
-  body {
-    background-color: black;
+  header nav {
+    margin-top: 0px;
+    display: flex;
+    padding: 10px 20px;
+  }
+  header nav .logo {
+    width: 60px;
+    height: 40px;
   }
   header nav ul {
     display: none;
   }
   header nav p {
+    display: inline-block;
+  }
+  header nav .menu {
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+  }
+  header .langs {
+    transform: translate(282px, 64px);
+  }
+  header .menus {
+    transform: translate(280px, 64px);
+  }
+  header .head .head-left {
+    width: 100%;
+    padding: 100px 50px 100px 50px;
+  }
+  header .head .head-left h1 {
+    width: 350px;
+    text-align: center;
+  }
+  header .head .head-left p {
+    text-align: center;
+  }
+  header .head .head-right {
     display: none;
+  }
+  header .head-container .container-center .con-center-left,
+  header .head-container .container-center .con-center-right {
+    width: 350px;
+  }
+  header .head-container .container-center .con-center-left h2,
+  header .head-container .container-center .con-center-right h2 {
+    font-size: 18px;
+  }
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about-some {
+    padding: 0;
+  }
+  .about .left, .about .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .right {
+    margin-top: 15px;
+    flex-direction: column;
+  }
+  .about .right h1, .about .right p {
+    text-align: center;
+  }
+  .portfolio .port-center {
+    height: 1112px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-left: 37px;
+  }
+  .portfolio .port-center .port-container {
+    display: block;
+  }
+  .portfolio .port-center .port-container .port-con {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .blog .blog-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog .blog-bottom .blog-con {
+    margin-bottom: 20px;
+  }
+  .contact .contact-center .contact-center-top input {
+    width: 380px;
+    margin-left: 5px;
+  }
+  .contact .contact-center .contact-center-bottom textarea {
+    width: 380px;
   }
 }/*# sourceMappingURL=res.css.map */

@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
       <!-- Header coding -->
 
       <header>
@@ -21,7 +20,7 @@
             <!-- Navbar coding -->
 
             <nav>
-                  <img src="img/logo.png" alt="">
+                  <img src="img/logo.png" alt="" class="logo">
                   <ul>
                         <a href="#">Home.</a>
                         <a href="#about">About us.</a>
@@ -29,12 +28,29 @@
                         <a href="#blog">Blog.</a>
                         <a href="#contact">Contact us.</a>
                   </ul>
-                  <p class="lang" onclick="lang_clicked()">EN</p>   
+                  <p class="lang" id="en">EN</p>
+                  <img src="./img/sd_button_menu.svg" alt="" class="menu">
             </nav>
 
+            <!-- langs selection if p class lang clicked -->
             <div class="langs">
-                  <p>UZ</p>
-                  <p>RU</p>
+                  <p id="uz">UZ</p>
+                  <p id="ru">RU</p>
+            </div>
+
+            <!-- Menus in mobile resposive  -->
+            <div class="menus">
+                  <a href="#">Home.</a>
+                  <a href="#about">About us.</a>
+                  <a href="#portfolio">Portfolio.</a>
+                  <a href="#blog">Blog.</a>
+                  <a href="#contact">Contact us.</a>
+            </div>
+
+            <!-- Contact conformation Coding-->
+            <div class="con-conformation">
+                  <img src="./img/infodanger.png" alt="">
+                  <h2>So'rovnoma jo'natildi</h2>
             </div>
             <!-- Navbar Coding End -->
 
@@ -87,7 +103,9 @@
             </div>
             <div class="about-some right">
                   <h1>Some Fine Words About Us</h1>
-                  <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accuman tincidut. Vistibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitorac- cumsan tincidunt</p>
+                  <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accuman
+                        tincidut. Vistibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla
+                        porttitorac- cumsan tincidunt</p>
             </div>
       </div>
 
@@ -112,7 +130,7 @@
                   </div>
             </div>
             <div class="port-bottom">
-                  <a href="#">See More of This</a>
+                  <a id="portBottomButton" style="cursor: pointer;">See More of This</a>
             </div>
       </div>
 
@@ -140,7 +158,8 @@
                   <div class="blog-con two">
                         <p class="title">New Adventure</p>
                         <p class="date">17 March 2019</span>
-                        <p class="text">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nullaporttitor accuman tincidut</p>
+                        <p class="text">Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+                              Nullaporttitor accuman tincidut</p>
                   </div>
             </div>
       </div>
@@ -163,7 +182,7 @@
                   </div>
             </div>
             <div class="contact-bottom">
-                  <a href="#">Send Message</a>
+                  <a style="cursor: pointer;" id="contactBottom">Send Message</a>
             </div>
       </div>
 

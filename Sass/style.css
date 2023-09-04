@@ -26,7 +26,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-header nav img {
+header nav .logo {
   width: 100px;
   height: 50px;
 }
@@ -56,24 +56,70 @@ header nav p {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-}
-header nav p:hover {
   background-color: #f5f5f5;
 }
+header nav .menu {
+  display: none;
+}
 header .langs {
-  position: absolute;
+  position: fixed;
   background-color: #f5f5f5;
   padding: 10px 20px;
   border-radius: 10px;
-  transform: translate(1419px, 85px);
+  transform: translate(1419px, 90px);
+  z-index: 100;
   display: none;
 }
-header .langs p {
+header .langs #uz {
   margin-bottom: 10px;
+}
+header .langs p {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 750;
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+header .menus {
+  position: fixed;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 100;
+  display: none;
+}
+header .menus a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 750;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-bottom: 10px;
+}
+header .con-conformation {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  transform: translate(1200px, 100px);
+  z-index: 3;
+  display: none;
+}
+header .con-conformation img {
+  display: inline-block;
+}
+header .con-conformation h2 {
+  width: 100px;
+  display: inline-block;
+  margin-left: 10px;
 }
 header .head {
   display: flex;
@@ -108,6 +154,7 @@ header .head .head-left a {
   margin-top: 10px;
   background-color: var(--red);
   transition: 0.5s;
+  z-index: 2;
 }
 header .head .head-left a:hover {
   color: var(--red);
@@ -239,6 +286,7 @@ header .head-container .container-bottom a:hover {
 .portfolio .port-center {
   width: 100%;
   padding: 25px 50px;
+  transition: 3s;
 }
 .portfolio .port-center .port-con {
   width: 280px;
@@ -367,6 +415,7 @@ header .head-container .container-bottom a:hover {
   border: 0;
   outline: none;
   color: #1135aa;
+  z-index: 2;
 }
 .contact .contact-center .contact-center-top input::-moz-placeholder {
   font-size: 15px;
@@ -390,6 +439,7 @@ header .head-container .container-bottom a:hover {
   outline: none;
   padding: 25px;
   color: #1135aa;
+  z-index: 2;
 }
 .contact .contact-center .contact-center-bottom textarea::-moz-placeholder {
   font-size: 15px;
